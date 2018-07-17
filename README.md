@@ -21,6 +21,11 @@
 `/DocumentRoot`
 替换成
 `/Users/"用户名" 目录下 创建"Sites`
+```
+DoucumentRoot "Users/用户名/Sites"
+<Directory "Users/用户名/Sites">
+Options Indexes FollowSymLinks Multiviews
+```
 4. 查找php
 `/php` 去掉前面的注释#
 5. 切换工作目录
