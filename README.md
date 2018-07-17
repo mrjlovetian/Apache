@@ -1,6 +1,7 @@
 # Apache Mac 服务器本地搭建
 ## 创建需要存放网站目录
 `/Users/"用户名" 目录下 创建"Sites" 的文件夹`
+快速显示隐藏显示系统文件快捷键（command + shift + .）
 ## apache 相关命令
 * 关闭
 `$sudo apachectl -k stop`
